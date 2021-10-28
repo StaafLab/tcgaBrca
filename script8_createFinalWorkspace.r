@@ -72,12 +72,13 @@ tmp<-list.files(paste0(HOME,"/annotateFeatures/"),pattern="object_noChromFilter_
 tmp<-tmp[ length(tmp) ]
 load( tmp  ) ; rm(tmp)
 
-ls()
-
 ################################################################################
 ### Gather final object
 
 ls()
+#  [1] "annoObj"    "betaAdj"    "betaNorm"   "betaOrig"   "dataAtac"  
+#  [6] "dataCn"     "dataMut"    "dataSeg"    "gexCounts"  "gexFpkm"   
+# [11] "gexUq"      "HOME"       "MANIFEST"   "sampleAnno" "TUMOR_TYPE"
 
 save(annoObj,betaAdj,betaNorm,betaOrig,
 	dataAtac,
