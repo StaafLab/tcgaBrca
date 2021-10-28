@@ -1,5 +1,5 @@
 #####======================================================================#####
-### Get TCGA/GDC data for TCGA BRCA
+### Normalize methylation for TCGA BRCA
 #####======================================================================#####
 
 ##Author: Mattias Aine  (mattias.aine@med.lu.se)
