@@ -1,0 +1,5 @@
+id	filename	md5	size	state
+4bfc475b-c9ae-4358-abc3-f184fdf2ccc5	genome.wustl.edu_BRCA.IlluminaHiSeq_DNASeq_automated.1.4.0.somatic.maf	5d6283c8e28f9c1e2ddaa55f4b773b88	25793396	live
+87ac6b5b-806e-4de0-b8d8-ae6888759667	gsc_BRCA_pairs.aggregated.capture.tcga.uuid.automated.somatic.maf	b48a6f15d18fa60623dc6f2af14a9460	230897862	live
+50d6fb1d-5bb1-4a30-9e91-6d45bd9b1c3f	genome.wustl.edu_BRCA.IlluminaGA_DNASeq.Level_2.1.1.0.curated.somatic.maf	f823427c6ea3d520fb72379da8ba63dd	54556526	live
+1a8fe803-f719-471f-82d8-5c85f3eacf45	genome.wustl.edu_BRCA.IlluminaGA_DNASeq.Level_2.5.3.0.somatic.maf	5d6283c8e28f9c1e2ddaa55f4b773b88	25793396	live
