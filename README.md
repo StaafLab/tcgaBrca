@@ -1,2 +1,2 @@
 # tcgaBrca
-TCGA BRCA data
+Repository for TCGA BRCA data.
