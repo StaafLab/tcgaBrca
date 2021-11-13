@@ -1483,7 +1483,7 @@ cgCount<-vcountPattern("CG",weberStringProm)
 gcCont<-letterFrequency(weberStringProm,letters=c("GC"),OR=0)
 
 weberOEprom<- ( cgCount * 500 ) / ( gcCont[,1] * gcCont[,2] )
-weberGCprom<- ( gcCont[1,] + gcCont[,2] )/500
+weberGCprom<- ( gcCont[,1] + gcCont[,2] )/500
 rm(cgCount,gcCont)
 
 ##split and get Weber class  length(seqEcrWeber)
@@ -1511,9 +1511,6 @@ promOEweber<- (promOEweber*1900) / ( promGCweber[,1]*promGCweber[,2] )
 promGCweber<-  (promGCweber[,1]+promGCweber[,2])/1900
 
 table(weberClassProm)
-# weberClassProm
-#   HCP   ICP   LCP 
-# 18022 14039 27791 
 
 pdf(file=paste0(HOME,"/annotateFeatures/hist_cpgOeWeberForPromoters.pdf"),width=12,height=12,useDingbats=FALSE)
 par(fig=c(0,.5,0,.9),mar=c(5.1,4.1,4.1,2.1),font=2,font.sub=2,font.lab=2,font.axis=2,las=1)
