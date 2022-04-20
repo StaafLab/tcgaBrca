@@ -319,10 +319,19 @@ gc()
   ##publication also provides updated probe mapping and exclude-infomration
     ##available from: http://zwdzwd.github.io/InfiniumAnnotation
 
+##https://github.com/zhou-lab/InfiniumAnnotation
+  ##URL keeps changing. Has been hosted on Amazon AWS
+  ##15 Nov 2021 - AWS no longer working? 
+    ##try: https://zhouserver.research.chop.edu/InfiniumAnnotation/20180909/EPIC/EPIC.hg38.manifest.rds
+    ##try: https://zhouserver.research.chop.edu/InfiniumAnnotation/20180909/HM450/HM450.hg38.manifest.rds
+
 ##Updated annotations for 450K hg19/38 or 850K hg38 - use frozen version 20180909
 
 #download.file("http://zwdzwd.io/InfiniumAnnotation/20180909/HM450/HM450.hg19.manifest.rds",paste0(HOME,"/me/","HM450.hg19.manifest.rds"))
 download.file("http://zwdzwd.io/InfiniumAnnotation/20180909/HM450/HM450.hg38.manifest.rds",paste0(HOME,"/me/","HM450.hg38.manifest.rds"))
+
+md5sum(paste0(HOME,"/me/","HM450.hg38.manifest.rds"))
+#"c3086f64841512c2a4f1c1200e723ea2" 
 
 ##450K 2021 - resource migrated..
 #download.file("https://zwdzwd.s3.amazonaws.com/InfiniumAnnotation/20180909/HM450/HM450.hg19.manifest.tsv.gz",paste0(HOME,"/me/","HM450.hg19.manifest.tsv.gz"))
