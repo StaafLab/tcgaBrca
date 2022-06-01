@@ -19,7 +19,4 @@ Downloads raw Illumina iDat-files which are subsequently normlaized using the [m
 Downloaded "as is" for the MUSE, SomaticSniper, Mutect, and varscan pipelines. Mutations called using at least two independent methods were kept in a filtering step, resulting in 58 973 SNVs across 630 samples.
 
 ## Usage
-The scripts contained perform data download, preprocessing and annotation.
-
-## Usage
 The scripts contained perform data download, preprocessing and annotation. Processed R-objects are also made available on request as running the full set of scripts can be time consuming and have not been validated on all platforms.
